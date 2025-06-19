@@ -1,0 +1,16 @@
+1.Create a new thread by using java 8
+2.write a program to create three threads t1,t2,t3 and execute these 3 threads in this sequence
+  t3,
+  t2,
+  t1
+3.list of employees(id,name,age),
+  Calculate sum of those employee salary whose age > 25, using java8 stream
+  null checks by using optional class
+
+4.Student - id, name
+  create 4 objects - sort them in descending order of names
+5.Create a Student(ID,Name) Class as Singleton class which work in multithreaded environment also
+7.Create a Student(ID,Name) Class as immutable class.
+8.Throw a example of ConcurrentModificationException and then fix it by    using below problem
+--- delete odd number from list 2,4,6,7,8
+Create a Student Class (id, name) then create one object s1, then create s2 by cloning  of s1
