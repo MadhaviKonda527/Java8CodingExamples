@@ -1,0 +1,63 @@
+Basic Spring Boot Concepts
+What is Spring Boot, and how does it differ from the Spring Framework?
+
+Answer: Spring Boot is a framework that simplifies the setup and development of new Spring applications. It differs from the traditional Spring Framework by providing built-in configurations and defaults to minimize boilerplate code and configuration. It includes embedded servers, auto-configuration, and a simplified dependency management system.
+Can you explain the concept of auto-configuration in Spring Boot?
+
+Answer: Auto-configuration in Spring Boot attempts to automatically configure your Spring application based on the dependencies present on the classpath. It uses @EnableAutoConfiguration and @Configuration annotations to provide default configurations, thus reducing the need for manual setup.
+What is the purpose of application.properties or application.yml in a Spring Boot application?
+
+Answer: These files are used to configure various aspects of a Spring Boot application, such as database settings, server ports, logging levels, and other environment-specific properties.
+Spring Boot Annotations
+What is the role of the @SpringBootApplication annotation?
+
+Answer: @SpringBootApplication is a convenience annotation that combines @Configuration, @EnableAutoConfiguration, and @ComponentScan with their default attributes. It marks the main class of a Spring Boot application and enables auto-configuration and component scanning.
+Can you explain the difference between @Component, @Service, @Repository, and @Controller?
+
+Answer: All these annotations are used for different types of components in a Spring application. @Component is a generic stereotype for any Spring-managed component. @Service is a specialization of @Component used for service layer beans. @Repository is used for DAO components and includes additional functionality for exception translation. @Controller is used for MVC controllers to handle web requests.
+Dependency Injection
+What is dependency injection, and how does Spring Boot facilitate it?
+
+Answer: Dependency injection (DI) is a design pattern used to achieve inversion of control (IoC) by injecting dependencies into a component rather than allowing the component to create them. Spring Boot facilitates DI through annotations like @Autowired, @Inject, and @Resource, and manages the lifecycle of beans defined in the application context.
+What is the difference between constructor injection and setter injection?
+
+Answer: Constructor injection involves providing dependencies through the constructor of a class, which ensures that all required dependencies are provided when the object is created. Setter injection involves providing dependencies through setter methods, allowing for optional dependencies and the ability to change dependencies after object creation.
+Spring Boot Data Management
+How do you configure a data source in Spring Boot?
+
+Answer: Data sources can be configured in Spring Boot using application.properties or application.yml. For example, you would set properties like spring.datasource.url, spring.datasource.username, and spring.datasource.password. Spring Boot auto-configures a DataSource bean based on these properties.
+What is Spring Data JPA, and how does it simplify data access in Spring Boot applications?
+
+Answer: Spring Data JPA is a part of the Spring Data project that provides an abstraction layer for JPA (Java Persistence API) to simplify data access. It offers repository support, automatic implementation of repository interfaces, and powerful query methods, reducing the need for boilerplate code.
+What is a JpaRepository, and how do you use it?
+
+Answer: JpaRepository is an interface provided by Spring Data JPA that extends PagingAndSortingRepository and CrudRepository. It provides methods for CRUD operations and pagination. You can define your own repository interface by extending JpaRepository and then use its methods to interact with the database.
+RESTful Web Services
+How do you create a RESTful web service in Spring Boot?
+
+Answer: To create a RESTful web service, you would define a controller class annotated with @RestController, use @RequestMapping or other mapping annotations (like @GetMapping, @PostMapping, etc.) to handle HTTP requests, and return data as JSON or XML.
+What is the purpose of the @ResponseBody annotation?
+
+Answer: @ResponseBody indicates that the return value of a method should be bound to the web response body. In combination with @Controller, it converts the return value into the response format (like JSON or XML) and sends it to the client.
+Error Handling
+How do you handle exceptions in Spring Boot applications?
+
+Answer: You can handle exceptions using @ControllerAdvice and @ExceptionHandler annotations for global exception handling. @ControllerAdvice allows you to define a global exception handler that applies to multiple controllers. @ExceptionHandler is used within a controller or advice class to handle specific exceptions.
+What is the purpose of @ResponseStatus annotation?
+
+Answer: @ResponseStatus is used to mark a method or exception class with the status code that should be returned in the HTTP response. This annotation allows you to set custom HTTP status codes for responses.
+Testing
+How do you test a Spring Boot application?
+
+Answer: Spring Boot provides testing support through the spring-boot-starter-test dependency. You can use annotations like @SpringBootTest for integration tests, @MockBean to mock beans, and @WebMvcTest to test controllers. JUnit and Mockito are commonly used for writing tests.
+What is the purpose of @DataJpaTest annotation?
+
+Answer: @DataJpaTest is used for testing JPA repositories. It configures an in-memory database, scans for @Entity classes and @Repository beans, and sets up the Spring Data JPA environment for testing.
+Miscellaneous
+What is Spring Boot Actuator, and what features does it provide?
+
+Answer: Spring Boot Actuator provides production-ready features to help monitor and manage Spring Boot applications. It includes endpoints for metrics, health checks, environment information, and more.
+How can you secure a Spring Boot application?
+
+Answer: You can secure a Spring Boot application using Spring Security. It provides authentication and authorization features, including configuring users, roles, and permissions, securing endpoints, and integrating with various authentication mechanisms like OAuth2 or LDAP.
+These questions cover a range of basic to intermediate concepts that are relevant for someone with about a year of experience in Spring Boot. Being prepared to answer them will demonstrate a solid understanding of the framework and its capabilities.
