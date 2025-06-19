@@ -1,0 +1,532 @@
+=====================================================================================
+Core Java & Java 8
+=====================================================================================
+
+1. why static
+2. what is final and why
+3. why finally
+4. constructor
+5. how constructor is called from other class
+6. difference between abstraction vs interface
+7. oops concepts
+8. What will happen if public in not used in the class declaration?
+9. java oops concepts. What are the advantages and disadvantage of object oriented programming? 
+10. Inheritance in java, why do we inherit?
+11. Coupling, Cohesion and Composition (part of OOPS)
+12. Method overriding, overloading, why we use them. Why will we want to override a method instead of using a method with new name.
+Interfaces and types
+13. What is the implementation for interface?
+14. Serialization and Deserialization ?
+15. How do you handle null pointer exception.
+16. What is Array?
+17. What is the difference between Array and List?
+18. What is Linked List, how it is different from list?
+19. Map ?
+20. Thread, Thread communicate, Marc interface ?
+21. What is threadsafe?
+22. Hierarchy of collections framework
+23. Collections framework in brief, questions on hashmap, did you use in our project
+Where and how did we use collections framework in our project
+24. Tell me something about Collection interface
+25. In which schenario you will use ArrayList an.d LinkedList
+26. Default vs Protected access specifier in java
+27. Can we ovveride methods in String class
+28. what is the use of method overriding in Java
+29. Is it required to ovverride equals(),hashcode() in set collection?
+-------------------------------------------------------------------------------------
+
+What is the difference between JDK and JRE?
+2. What is Java Virtual Machine (JVM)?
+3. What are the different types of memory areas allocated by JVM?
+4. What is JIT compiler?
+5. How Java platform is different from other platforms?
+6. Why people say that Java is 'write once and run anywhere' language?
+7. How does ClassLoader work in Java?
+8. Do you think ‘main’ used for main method is a keyword in Java?
+9. Can we write main method as public void static instead of public static
+void?
+10. In Java, if we do not specify any value for local variables, then what
+will be the default value of the local variables?
+11. Let say, we run a java class without passing any arguments. What will
+be the value of String array of arguments in Main method?
+12. What is the difference between byte and char data types in Java?
+OOPS
+13. What are the main principles of Object Oriented Programming?
+14. What is the difference between Object Oriented Programming
+language and Object Based Programming language?
+15. In Java what is the default value of an object reference defined as an
+instance variable in an Object?
+16. Why do we need constructor in Java?
+17. Why do we need default constructor in Java classes?
+18. What is the value returned by Constructor in Java?
+19. Can we inherit a Constructor?
+20. Why constructors cannot be final, static, or abstract in Java?
+Inheritance
+21. What is the purpose of ‘this’ keyword in java?
+22. Explain the concept of Inheritance?
+23. Which class in Java is superclass of every other class?
+24. Why Java does not support multiple inheritance?
+25. In OOPS, what is meant by composition?
+26. How aggregation and composition are different concepts?
+27. Why there are no pointers in Java?
+28. If there are no pointers in Java, then why do we get
+NullPointerException?
+29. What is the purpose of ‘super’ keyword in java?
+30. Is it possible to use this() and super() both in same constructor?
+31. What is the meaning of object cloning in Java?
+Static
+32. In Java, why do we use static variable?
+33. Why it is not a good practice to create static variables in Java?
+34. What is the purpose of static method in Java?
+35. Why do we mark main method as static in Java?
+36. In what scenario do we use a static block?
+37. Is it possible to execute a program without defining a main() method?
+38. What happens when static modifier is not mentioned in the signature
+of main method?
+39. What is the difference between static method and instance method in
+Java?
+Method Overloading and Overriding
+40. What is the other name of Method Overloading?
+41. How will you implement method overloading in Java?
+42. What kinds of argument variations are allowed in Method
+Overloading?
+43. Why it is not possible to do method overloading by changing return
+type of method in java?
+44. Is it allowed to overload main() method in Java?
+45. How do we implement method overriding in Java?
+46. Are we allowed to override a static method in Java?
+47. Why Java does not allow overriding a static method?
+48. Is it allowed to override an overloaded method?
+49. What is the difference between method overloading and method
+overriding in Java?
+50. Does Java allow virtual functions?
+51. What is meant by covariant return type in Java?
+Polymorphism
+52. What is Runtime Polymorphism?
+53. Is it possible to achieve Runtime Polymorphism by data members in
+Java?
+54. Explain the difference between static and dynamic binding?
+Abstraction
+55. What is Abstraction in Object Oriented programming?
+56. How is Abstraction different from Encapsulation?
+57. What is an abstract class in Java?
+58. Is it allowed to mark a method abstract method without marking the
+class abstract?
+59. Is it allowed to mark a method abstract as well as final?
+60. Can we instantiate an abstract class in Java?
+61. What is an interface in Java?
+62. Is it allowed to mark an interface method as static?
+63. Why an Interface cannot be marked as final in Java?
+64. What is a marker interface?
+65. What can we use instead of Marker interface?
+66. How Annotations are better than Marker Interfaces?
+67. What is the difference between abstract class and interface in Java?
+68. Does Java allow us to use private and protected modifiers for
+variables in interfaces?
+69. How can we cast to an object reference to an interface reference?
+Final
+
+why multiple inheritance is not valid in java
+new features of java8
+what is abstraction and interface and diffrence between abstract class and interface
+what is functional interface
+Types of functional interface in java
+what is lambda expression
+can u write the implementation of predecate and consumer?
+reverse a string using stream
+garbage collector
+finally finalize final
+what is ms
+what is api agteway
+interface vs abstract class
+reest comtroller
+exception handing in spring boot
+write a code to reverse the string;
+today is wednesday -> wednesday is today
+opps concept and pillars of opps concept
+why multiple inheritance is not valid in java
+new features of java8
+what is functional interface
+what is abstraction and interface and diffrence between abstract class and interface
+what is functional interface
+Types of functional interface in java
+what is lambda expression
+can u write the implementation of predecate and consumer?
+
+oops conceptreturn in try catch will finally method exceute
+return in try catch finally which return statement it returns
+Exception handling
+multithreading
+DeadLock 
+have u used multithreading in your project
+Lambda Expressions and syntax
+java 8 features -> forEach(), default & static mem in interfaces, lambda Exp, Functional Interface, java.time.
+constructors
+system.exit(0) in try block will  finally is exceuted or not
+Difference between arrayList and LinkedList
+Garbage Collector
+access modifiers
+concepts of abstraction and abstract class
+method referencing
+lambda expressions
+concepts about functional interface (predicate consumer function unary binaryOperator)
+final finalize finally
+Stream Api
+Optional class 
+multiple inheritence senerio based question
+accessing non-static in static block
+can you extend enumerator class
+senerio based question on static and non-static part
+can u write the implementation of predecate and consumer?
+why java is not pure object or'iented
+local and instance variables 
+stack and heap memory 
+== and .equals()
+ArthematicException
+methodoverloading and methodOverrding
+constructor overloading
+constructor chaining
+main(String...args)  syntax
+what is string & why string is immutable 
+difference b/w stringbuilder & stringbuffer
+what is collection & hirearchy of collection interface
+Internal working of hashmap	
+hashing
+what happens when we apply final non-access modifier to class, methods, variables
+why we are using static keyword with the main method
+list vs set, 
+exception, 
+exception handling, 
+try and catch. 
+Hashset vs treeset
+HashTable vs HashSet
+Why set doesnt allow duplicate
+volatile keyword
+what is synchronization
+difference between throw and throws
+is java pass by reference or pass by value,
+
+=====================================================================================
+Core Java Coding and Snippits
+=====================================================================================
+1. Guess OP
+
+class Base {
+private static void display() {
+System.out.println("Static or class method from Base");
+}
+public void print() {
+System.out.println("Non-static or instance method from Base");
+}
+}
+class Derived extends Base {
+private static void display() {
+System.out.println("Static or class method from Derived");
+}
+public void print() {
+System.out.println("Non-static or instance method from Derived");
+}
+}
+class test
+{
+public static void main(String args[])
+{
+Base obj= new Derived();
+obj.display();
+obj.print();
+}
+}
+
+
+
+
+2. Guess OP
+
+class Base {
+private static void display() {
+System.out.println("Static or class method from Base");
+}
+public void print() {
+System.out.println("Non-static or instance method from Base");
+}
+}
+class Derived extends Base {
+private static void display() {
+System.out.println("Static or class method from Derived");
+}
+public void print() {
+System.out.println("Non-static or instance method from Derived");
+}
+}
+class test
+{
+public static void main(String args[])
+{
+Base obj= new Derived();
+obj.display();
+obj.print();
+}
+}
+
+
+3. Guess OP
+public class TestApp {
+    public static void stringReplace(String str) {
+        str = str.replace('c', 'c');
+    }
+
+    public static void bufferReplace(StringBuffer str) {
+        str.trimToSize();
+    }
+
+    public static void main(String args[]) {
+        String myString = new String("cplus");
+        StringBuffer myBuffer = new StringBuffer(" plus");
+        stringReplace(myString);
+        bufferReplace(myBuffer);
+        System.out.println(myString + myBuffer);
+    }
+}
+
+
+4. try block write code
+5. Find the max number from the array int arr[]={2,5,78,4,1};
+6. How to remove duplicates using  Java collections
+7. "This is monday" , I want to pickup last word length without using string built in functioni.e. split() etc.
+8. String names = "RAM RAJ RAJ RAM ROHAN"; 
+How can we find the frequency of names in above string
+9. Explained a scenario with a child class and parent class. Talk about all the way we can use all the methods present in both the class
+10. palindrome program
+11. coding concepts about overloading/overriding/abstraction
+12. febenocci series
+13. ip: ElePHanT     op: eLEphANt
+14.
+	Integer int_data = new Integer(10);
+	System.out.print(int_data.byteValue());
+	System.out.print("-");
+	int int_data_2 = new Integer(10);
+	System.out.print(int_data_2.byteValue());
+15. 
+public static void main(String... args) {
+   String car, bus = "petrol";
+   car = car + bus;
+   System.out.println(car);
+}
+16. find the length of integer
+
+17.
+public class Code {
+    public static void main(String[] args) {
+        for(int i = 0; i < 1; i++) {
+            System.out.println(i+' ');
+        }
+    }
+}
+
+18. 
+public class Test {
+    public static void main(String[] args) {
+        for(int i=0; 0; i++) {
+            System.out.println("Hello World!");
+        }
+    }
+}
+
+19. what's wrong with this code :
+
+double num1, int num2 = 1; // C1
+int num1, num2; // C2
+int num1, num2 = 1; // C3
+int num1 = 2, num2 = 1; // C4
+
+ 
+
+20. predict the output :
+
+public class Test {
+    public static void main(String[] args) {
+        for(int i=0; 0; i++) {
+            System.out.println("Hello World!");
+        }
+    }
+}
+
+21. occurrence of characters in string. 
+
+22. public class OutputExample {
+   public static void main(String[] args) {
+       int x = 5;
+       int y = 10;
+       int z = x++ + ++y;
+       System.out.println(x);
+       System.out.println(y);
+       System.out.println(z);
+   }
+}
+
+23. 
+public class OutputExample {
+   public static void main(String[] args) {
+       try {
+           int result = divide(10, 0);
+           System.out.println(result);
+       } catch (ArithmeticException e) {
+           System.out.println("Error: Division by zero");
+       }
+   }
+
+   public static int divide(int dividend, int divisor) {
+       return dividend / divisor;
+   }
+}
+
+24. 
+String s ="Lavanya";
+String s=new String("Lavanya"); difference between these two
+=====================================================================================
+Java 8 Coding
+=====================================================================================
+
+1. reversing a string using java 8 (further questioning on the logic implemented)
+2. Stream string rev
+3. List<Students> studentList = List.of("student1", "studen2",.....,"studentN")
+	where
+	Sudent: {
+	private int rollNo;
+	private String name;
+	private int marks;
+	private int age;
+	}
+	-> from the above list find students who scored marks <=80 and collect to list;
+	->from the above list find students who scored marks <=80 and collect to TreeMap 	or linkedhashedMap not default Hashmap (key =rollno value=marks)
+4. reverse string program
+5. sum of numbers program
+6. even nos
+7. prime nos
+8. Today is Monday ->>  Monday is today
+
+
+4) SQL
+  =====
+->You have 
+users table 
+uname,fname,lname field
+
+fetch user whose Id will be 24?
+SQL query to get second max salary
+
+->DML and DDL
+
+->Delete vs Truncate
+
+->Primary, Unique, foreign
+
+->Sql constraints
+
+->joins
+
+->sub queries
+
+->How to find 2 highest salary of employee
+
+->Use of "Like" and "Between" keyword in sql query
+
+5) SpringBoot
+   ==========
+
+->What are the features of Spring Boot?
+-> What are the advantages of Spring Boot?
+->What is @RestController annotation in Spring Boot?
+->what is the Difference between Spring and Spring Boot?
+->Can we create a non-web application in Spring Boot?
+-> What is the difference between RequestMapping and GetMapping?
+->What is dependency injection in spring boot?
+->What is IOC in Spring?
+->What is dispatcherServlet in Spring boot?
+-> What is the difference between @RestController and @Controller in Spring Boot?
+->How to run the app the sprinboot app?
+->What are rest apis?
+->How will u return the responses from rest api?
+->SpringBootApplication explain?
+->application.properties file?
+->how to connect multiple database in application?
+->Explain Autowiring?
+->Appliation profiles?
+->controller and conttrollerAdvice annotation difference ?
+->Difference in pathParam and queryParam?
+->how JPA connect to database?
+->Springboot starters?
+->What is  RequestMapping?
+->Factory design pattern(springboot)  ?
+->Write the complete flow in Spring application
+->what are the building block of spring boot ? 
+->what annoatation use in spring boot?
+->diff between path variable and requestParam ?
+->what will be the URL in postman for retrieve data from path variable / Requestparam ?
+->In maven proj , if you want to add 3 rd party library , where you will add these library?
+->What is spring security
+->exception handing in spring boot 
+->main modules in springboot
+->@EnableConfiguartion
+->what are the commonly used annotations in spring
+->Spring IOC
+->How security is achieved in springboot(Starter Security, unique pass on console, )
+->idempotency method
+->how we create boot project 
+->groovy
+->maven
+->how to create jar file in spring boot project
+->what changes do we need to make to make ka war file insted of jar file & where the changes are need to be done.
+->diffrence between spring starter and spring cli
+->thymeleaf 
+->mockito,
+->juint
+->springdatajpa
+->Application profiles
+->how to create seperate application properties based on stages(qa,prod,dev);
+->how to connect springboot to data base
+->What are the mandatory annotations to define an entity
+->Generated value Annotation
+->How will u return the responses from rest api?
+->How to Exclude properties 
+->Actuaters 
+
+6) hibernate 
+   =========
+
+->Session and session factory in hibernate
+->JDBC vs JPA 
+->What is hibernate & its life cycle?
+->bean Scopes
+->Default scope of bean in springboot application
+->Dependency Injection?
+->bean lifecycle?
+->IOC
+->What is cacheing 
+->how to do jpa associate
+->JPA  How to connect
+->JDBC How to connect
+
+7) Microservice
+   ============
+->api gateway in mc
+->Microservices architecture
+->microservices vs monolithic
+->Microservices components, 
+->use of microservices
+->what is api agteway
+->What is service registery
+->load balancer
+->how Microservices communicate?
+->how to invoke external MS?
+->What is Service Discovery ?
+->Fault Tolerance?
+->circuit breaker
+->Feign Client(use)
+->Restemplate(use)
+
+
+
+
+
+
