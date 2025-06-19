@@ -1,0 +1,97 @@
+RaviTeja -6years Kibana, Prometheus
+Can you specify roles and resonponsbilities
+
+1.Whta is OOPS principles?What is abstraction in Java? How to achieve 
+can we create constructor in abstract class
+2.composition and Aggregation?
+3.what is Diff between ConcurrentHahMap and HasHMap?
+4.Return try and return in finally what value sholud return?
+5.Singleton & prototype,Buildur ,factory
+6.Diff btwn ClassNotFoundException and NoClassDefFoundError
+7.Diff btwn Synchronised and lock?
+8.Diff bten Notify and notifyAll()?If notifyAll then Why notify requried?
+9.Thread  deamon threda /wait
+10.what is read write lock in java?
+11.what is retrancLock()?
+12.what is producer and Consumer model?
+13.whar is invasive and Non Invasive?
+14.what is POJO and POJI?
+15.what si Bean class and Component Class?
+2.Immutable
+4.voilatile and transient?
+5.java8 features
+4.what is lamba expression in java?
+5.Exception how you implement in SpringBoot?
+6.Stream and parallel stream
+7.map & faltmap
+8.Immutable class
+11.collection priority queue
+9.Hash map internal implementation
+10.Singleton & prototype,Buildur ,factory
+11.map & flatten map
+12.What are functional interface
+13.fail fast & fail safe
+14.what is use Marker interface?
+14.Thread  deamon threda /wait
+2.What is Model and view & architecture of MVC?
+3.get &load || save and perisit
+
+diff between Application and web server
+what is HLD/LLD
+
+Microservice:
+-----------
+What is a microservice architecture?** How does it differ from monolithic and SOA architectures?
+1.what are the key principle of microservices architecture?
+2.Asynchronour and synchronous between microservices?
+3.How do you ensure fault tolerance in Microservices?
+4.Explain the role of Eureka in Spring Cloud Microservices.
+5.How do you handle service-to-service communication in Microservices?
+6.What are some common challenges faced when implementing Microservices?
+7.How do you ensure data consistency in a Microservices architecture?
+8.How does Feign simplify RESTful service consumption in Spring Cloud Microservices?
+9.What is Ribbon, and how does it enhance client-side load balancing in Microservices?
+10.How does Spring Cloud Netflix help with building resilient and scalable Microservices?
+
+API GATEWAY:
+----------
+
+3.What is API gateway and why is it important in microservices?
+4.How does service discovery work in a Microservice architecture?
+5.Name some Api Gateway solutions commonly used in microservices?
+
+6.Explain the purpose of Spring Cloud Sleuth and Zipkin in Microservices architecture.
+7. What are Spring Cloud Stream and Spring Cloud Bus, and how do they facilitate messaging in Microservices?
+8. How does Spring Cloud Netflix help with building resilient and scalable Microservices?
+
+Design Pattern ::
+How do you define the boundaries of a microservice?** What principles or guidelines do you follow?
+Explain the Circuit Breaker pattern.** How does it contribute to system resilience?
+What is Event Sourcing?** When would you use it, and what are the trade-offs?
+Discuss the CQRS pattern.** How does it separate read and write operations?
+How do you handle data consistency in a microservice architecture?** Explain different approaches.
+
+Implementation and Best Practices
+
+How do you ensure loose coupling between microservices?**
+What strategies do you use for inter-service communication?** Synchronous vs. asynchronous?
+How do you manage service discovery and load balancing in a microservice environment?**
+Describe your approach to testing microservices.** What types of tests do you consider essential?
+How do you handle deployment and scaling of microservices?** What tools or technologies do you prefer?
+How do you monitor and troubleshoot issues in a microservice architecture?**
+
+### Real-world Scenarios
+
+Design a microservice architecture for an e-commerce platform.** Consider core functionalities, data management, and scalability.
+How would you handle a high-traffic event like a flash sale in a microservice architecture?**
+How do you ensure data consistency between multiple microservices when updating related data?**
+
+### Additional Considerations
+
+How do you handle security in a microservice architecture?**
+What is your experience with service mesh technologies?**
+How do you approach microservice decomposition?** What factors do you consider?
+
+
+
+
